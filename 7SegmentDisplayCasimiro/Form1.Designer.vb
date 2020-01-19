@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,15 +20,19 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.A = New System.Windows.Forms.Button()
         Me.G = New System.Windows.Forms.Button()
         Me.D = New System.Windows.Forms.Button()
         Me.B = New System.Windows.Forms.Button()
         Me.C = New System.Windows.Forms.Button()
-        Me.E = New System.Windows.Forms.Button()
+        Me.EDisplay = New System.Windows.Forms.Button()
         Me.F = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'A
@@ -71,13 +75,13 @@ Partial Class Form1
         Me.C.TabIndex = 4
         Me.C.UseVisualStyleBackColor = True
         '
-        'E
+        'EDisplay
         '
-        Me.E.Location = New System.Drawing.Point(101, 127)
-        Me.E.Name = "E"
-        Me.E.Size = New System.Drawing.Size(23, 55)
-        Me.E.TabIndex = 6
-        Me.E.UseVisualStyleBackColor = True
+        Me.EDisplay.Location = New System.Drawing.Point(101, 127)
+        Me.EDisplay.Name = "EDisplay"
+        Me.EDisplay.Size = New System.Drawing.Size(23, 55)
+        Me.EDisplay.TabIndex = 6
+        Me.EDisplay.UseVisualStyleBackColor = True
         '
         'F
         '
@@ -87,12 +91,39 @@ Partial Class Form1
         Me.F.TabIndex = 5
         Me.F.UseVisualStyleBackColor = True
         '
+        'Timer1
+        '
+        Me.Timer1.Interval = 1000
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(12, 246)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(93, 13)
+        Me.Label1.TabIndex = 7
+        Me.Label1.Text = "Casimiro, Vince R."
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.ForeColor = System.Drawing.Color.White
+        Me.Label2.Location = New System.Drawing.Point(12, 259)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(59, 13)
+        Me.Label2.TabIndex = 8
+        Me.Label2.Text = "BSCpE 5-3"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(319, 450)
-        Me.Controls.Add(Me.E)
+        Me.BackColor = System.Drawing.Color.Black
+        Me.ClientSize = New System.Drawing.Size(319, 286)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.EDisplay)
         Me.Controls.Add(Me.F)
         Me.Controls.Add(Me.C)
         Me.Controls.Add(Me.B)
@@ -100,8 +131,9 @@ Partial Class Form1
         Me.Controls.Add(Me.G)
         Me.Controls.Add(Me.A)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "7 Segment Display"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -110,6 +142,9 @@ Partial Class Form1
     Friend WithEvents D As Button
     Friend WithEvents B As Button
     Friend WithEvents C As Button
-    Friend WithEvents E As Button
+    Friend WithEvents EDisplay As Button
     Friend WithEvents F As Button
+    Friend WithEvents Timer1 As Timer
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
 End Class

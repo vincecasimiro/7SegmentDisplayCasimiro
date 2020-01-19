@@ -1,0 +1,11 @@
+C:\Users\Acer\source\repos\7SegmentDisplayCasimiro\7SegmentDisplayCasimiro\bin\Debug\7SegmentDisplayCasimiro.exe.config
+C:\Users\Acer\source\repos\7SegmentDisplayCasimiro\7SegmentDisplayCasimiro\bin\Debug\7SegmentDisplayCasimiro.exe
+C:\Users\Acer\source\repos\7SegmentDisplayCasimiro\7SegmentDisplayCasimiro\bin\Debug\7SegmentDisplayCasimiro.pdb
+C:\Users\Acer\source\repos\7SegmentDisplayCasimiro\7SegmentDisplayCasimiro\bin\Debug\7SegmentDisplayCasimiro.xml
+C:\Users\Acer\source\repos\7SegmentDisplayCasimiro\7SegmentDisplayCasimiro\obj\Debug\7SegmentDisplayCasimiro.vbprojAssemblyReference.cache
+C:\Users\Acer\source\repos\7SegmentDisplayCasimiro\7SegmentDisplayCasimiro\obj\Debug\_7SegmentDisplayCasimiro.Form1.resources
+C:\Users\Acer\source\repos\7SegmentDisplayCasimiro\7SegmentDisplayCasimiro\obj\Debug\_7SegmentDisplayCasimiro.Resources.resources
+C:\Users\Acer\source\repos\7SegmentDisplayCasimiro\7SegmentDisplayCasimiro\obj\Debug\7SegmentDisplayCasimiro.vbproj.GenerateResource.cache
+C:\Users\Acer\source\repos\7SegmentDisplayCasimiro\7SegmentDisplayCasimiro\obj\Debug\7SegmentDisplayCasimiro.exe
+C:\Users\Acer\source\repos\7SegmentDisplayCasimiro\7SegmentDisplayCasimiro\obj\Debug\7SegmentDisplayCasimiro.xml
+C:\Users\Acer\source\repos\7SegmentDisplayCasimiro\7SegmentDisplayCasimiro\obj\Debug\7SegmentDisplayCasimiro.pdb
